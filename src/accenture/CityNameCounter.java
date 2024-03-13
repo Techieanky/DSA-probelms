@@ -8,7 +8,7 @@ public class CityNameCounter {
         int length = city.length;
         System.out.println("Size of city " + city.length);
 
-        HashMap<String, Integer> cityCounts = new HashMap<>();
+        HashMap<String, Integer> cityCounts  = new HashMap<>();
 
         for (String cityName : city) {
             String lowerCaseString = cityName.toLowerCase(Locale.ROOT);

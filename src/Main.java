@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         CityNameCounter city = new CityNameCounter();
-      //  city.cityCounter();
+      //   city.cityCounter();
 
         CountCharacterFromString count = new CountCharacterFromString();
 
